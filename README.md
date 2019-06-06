@@ -48,7 +48,7 @@ In order to set up the hardware and PPP dialer please follow the steps found in 
 # Setting Up Azure Python SDK on Raspberry Pi
 
 1. Clone the repository containing the necessary files.
-'git clone --recursive https://github.com/Azure/azure-iot-sdk-python.git`
+`git clone --recursive https://github.com/Azure/azure-iot-sdk-python.git`
 
 2. Take not of your python3 version
 `python --version`
