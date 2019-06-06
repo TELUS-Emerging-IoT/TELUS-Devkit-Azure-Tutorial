@@ -6,7 +6,9 @@ This guide will cover how to setup a basic IoT device able to send temperature, 
 ![alt text](image/create.png)
 
 3. Select **IoT Hub**, this should lead you to a page for creating the service.
+
 ![alt_text](image/iot)
+
 ![alt_text](image/iotdata)
 
 You will need to fill in the fields:
@@ -26,9 +28,12 @@ Note that the IoT Hub service will be publically discoverable so avoid including
 **Advanced / Device-to-cloud partitions:** This property relatesd the device-to-cloud messages to the number of simultaneous readers of the messages. Most IoT hubs only need four partitions
 
 5. Click **Review + create** to review your choices and deploy your solution by selecting **create**
+
 ![alt text](image/deploy)
-##Register a Device
+
+## Register a Device
 Click **IoT devices** menu in your newly created IoT hub
+
 ![alt text](image/devices)
 
 Enter a **Device ID**. This can be any string you wish, Click ***Save**.
