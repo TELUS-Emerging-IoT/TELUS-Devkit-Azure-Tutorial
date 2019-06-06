@@ -115,3 +115,24 @@ replace {your hub name} with the name of your service.
 The output should look like the following:
 
 ![alt text](image/output.png)
+
+I use the bash version of the shell but you may also use the PowerShell.
+
+# Send Command to Raspberry Pi Device via Azure Portal
+
+To send message from cloud-to-device you must enter the **Message to device** tab as part of your device details
+
+![alt text](image/seldev.png)
+![alt text](image/cmd.png)
+
+The device is waiting for a **Command**  event from the IoT Hub. You can add **Command** in the main body of the text and select the key and value you want to send over. Click **Add Property** and when you are ready click **Send Message**. 
+
+![alt text](image/cmd.png)
+
+On the device side you will see output similar to the following:
+
+![alt text](image/cmdout.jpeg)
+
+Which is essentially a dict containing the key and its related value.
+
+Hope this Helps!
