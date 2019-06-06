@@ -7,9 +7,9 @@ This guide will cover how to setup a basic IoT device able to send temperature, 
 
 3. Select **IoT Hub**, this should lead you to a page for creating the service.
 
-![alt_text](image/iot)
+![alt text](image/iot.png)
 
-![alt_text](image/iotdata)
+![alt text](image/iotdata.png)
 
 You will need to fill in the fields:
 
@@ -21,7 +21,7 @@ Note that the IoT Hub service will be publically discoverable so avoid including
 
 4. Next you will need to select **Size and Scale**
 
-![alt text](image/size)
+![alt text](image/size.png)
 
 **Pricing and scale tier:** You can choose from a variety of tiers depending on the number of features you require and how many messages you need to send through your solution per day. Since we the purpose of this is likely for rapid prototyping you may select the *Free Trial*. Ensure you select a tier which is capable of cloud to device and device to cloud communication. 
 **IoT Hub units:** The number of messages allowed per day depends on your hub's pricing tier.
@@ -29,20 +29,20 @@ Note that the IoT Hub service will be publically discoverable so avoid including
 
 5. Click **Review + create** to review your choices and deploy your solution by selecting **create**
 
-![alt text](image/deploy)
+![alt text](image/deploy.png)
 
 ## Register a Device
 Click **IoT devices** menu in your newly created IoT hub
 
-![alt text](image/devices)
+![alt text](image/devices.png)
 
 Enter a **Device ID**. This can be any string you wish, Click ***Save**.
 
-![alt text](image/devname)
+![alt text](image/devname.png)
 
 Enter the newly created **Device details** and save the **Connection String (primary key)** in a accessible location.
 
-![alt text](image/primkey)
+![alt text](image/primkey.png)
 
 Now the IoT Hub is ready.
 
@@ -89,7 +89,7 @@ Now we should be able to run an IoT hub example on Raspberry Pi.
 2. Copy the file **iothub_client_sample.py** to **../azure-iot-sdk-python/device/samples**
 3. Open the file in nano or vim and change the *device connection string* with the connection string you saved from Azure IoT hub.
 
-![alt text](image/edit)
+![alt text](image/edit.png)
 
 4. Run the **iothub_client_sample.py** example with:
 
@@ -114,4 +114,4 @@ replace {your hub name} with the name of your service.
 
 The output should look like the following:
 
-![alt text](image/output)
+![alt text](image/output.png)
