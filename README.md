@@ -55,7 +55,7 @@ In order to set up the hardware and PPP dialer please follow the steps found in 
 1. Clone the repository containing the necessary files.
 `git clone --recursive https://github.com/Azure/azure-iot-sdk-python.git`
 
-2. Take not of your python3 version
+2. Take note of your python3 version
 `python --version`
 
 3. Install required packages
