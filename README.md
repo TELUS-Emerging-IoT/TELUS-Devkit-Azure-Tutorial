@@ -106,7 +106,7 @@ Approve the resource creation demand so that you may access the shell, wait for 
 
 We can monitor the data sent by the Pi, however we first need to add an extension to our shell
 
-`az extension add -name azure-cli-iot-ext`
+`az extension add --name azure-cli-iot-ext`
 
 Now we can poll for data from our device with the following command: 
 `az iot hub monitor-events --hub-name {your hub name}`
