@@ -85,7 +85,7 @@ Now we should be able to run an IoT hub example on Raspberry Pi.
       
       Open the script `send_sensor_data.py` using an editor of choice, comment `line 49` and uncomment `line 52 to 54`
       
-      ![alt_text](images/azure10.PNG)
+      ![alt_text](image/azure10.PNG)
 
 2. Run `send_sensor_data.py` to start sending sensor data to Azure.
 
